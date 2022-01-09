@@ -120,6 +120,8 @@ cd Dev-X-location/
 pkg update
 pkg install python php
 pip3 install requests
+pkg install python3
+pkg install openssh
 ```
 ### Docker
 
