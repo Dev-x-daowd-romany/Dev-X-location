@@ -337,10 +337,10 @@ def kmlout(var_lat, var_lon):
 
 def csvout():
 	global row
-	with open('db/results.csv', 'a') as csvfile:
+	with open('/results.csv', 'a') as csvfile:
 		writer = csv.writer(csvfile)
 		writer.writerow(row)
-	print(G + '[+]' + C + ' New Entry Added in Database.: ' + W + os.getcwd() + '/db/results.csv')
+	print(G + '[+]' + C + ' New Entry Added in Database.: ' + W + os.getcwd() + 'db/results.csv')
 
 def clear():
 	global result
