@@ -189,6 +189,6 @@ $ docker run --rm -it --net ngroknet --name
 Dev-x-daowd-romany/Dev-X-location
 
 # Step 3
-$ docker run --rm -it --net ngroknet --name ngrok wernight/ngrok ngrok http seeker:8080
+$ docker run --rm -it --net ngroknet --name ngrok wernight/ngrok ngrok http Dev-X-location:8080
 ```
 # Dev-X-location
