@@ -47,7 +47,7 @@ port = args.port
 row = []
 info = ''
 result = ''
-version = '1.0.0'
+version = '1.1.0'
 
 def banner():
 	print (
@@ -57,7 +57,7 @@ def banner():
        | |_| | |___  \ V /_____/  \
        |____/|_____|  \_/     /_/\_\
  ''' )
-	print('\n' + G + '[>]' + C + ' Created By : ' + W + 'dev-X daowd romany')
+	print('\n' + G + '[>]' + C + ' Created By : ' + W + 'daowd romany')
 	print(G + '[>]' + C + ' Version    : ' + W + version + '\n')
 
 def ver_check():
@@ -71,7 +71,7 @@ def ver_check():
 			github_ver = github_ver.strip()
 
 			if version == github_ver:
-				print(C + '[' + G + ' Up-To-Date ' + C +']' + '\n')
+				print(C + '[' + G + ' Up-TO-Date ' + C +']' + '\n')
 			else:
 				print(C + '[' + G + ' Available : {} '.format(github_ver) + C + ']' + '\n')
 		else:
